@@ -374,7 +374,7 @@ After careful review and monitoring of the organizations we have been able to de
 
   
 
-Remove the auto-scaling: We are doing this because Blue Moon does not require auto-scaling because they are currently serving a small customer base and we are not expecting an unexpected increase in requests soon. To also handle cases when we might need to scale up, we are going to set up threshold alerts so if in the future Blue Moon needs to scale up or scale out their infrastructure, we can properly handle it or we can then setup of a proper auto-scaling group. Although we do not incur cost for the security group, we want Blue Moon to have a clean and manageable cloud environment and remove as much overengineering as we can remove.  
+- Remove the auto-scaling: We are doing this because Blue Moon does not require auto-scaling because they are currently serving a small customer base and we are not expecting an unexpected increase in requests soon. To also handle cases when we might need to scale up, we are going to set up threshold alerts so if in the future Blue Moon needs to scale up or scale out their infrastructure, we can properly handle it or we can then setup of a proper auto-scaling group. Although we do not incur cost for the security group, we want Blue Moon to have a clean and manageable cloud environment and remove as much overengineering as we can remove.  
 
   
 
@@ -406,7 +406,7 @@ Remove the auto-scaling: We are doing this because Blue Moon does not require au
 
   
 
-Review the Access Levels on each key: The Access Level attached to each EC2 key would be reviewed too because we only want to give this EC2 access to only resources they require. We are doing this to fine grain the access to our AWS environment, we are also doing this for cases when the keys fall into the wrong hands so they have extremely limited access to our environment and would not be performing any actions that can affect our environment. 
+- Review the Access Levels on each key: The Access Level attached to each EC2 key would be reviewed too because we only want to give this EC2 access to only resources they require. We are doing this to fine grain the access to our AWS environment, we are also doing this for cases when the keys fall into the wrong hands so they have extremely limited access to our environment and would not be performing any actions that can affect our environment. 
 
   
 
