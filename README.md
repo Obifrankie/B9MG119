@@ -293,6 +293,17 @@ After careful review and monitoring of the organizations we have been able to de
    
 
   
+- Implement EC2 Instance saving plans: This is option is a great addition to Blue Moons infrastructure because we know that we are going to running a particular number of instances for over a period of at least 3 years. So, by dedicating to an EC2 savings plan with AWS we are able to save at least an extra 66% on our monthly expenditure on running these EC2 instances. 
+
+
+
+- Implement an Instance Scheduler: An instance scheduler is AWS optio to help us automate the starting and stopping of our AWS compute resources like EC2 and RDS. For example we don't need out Test environment running 24/7 during the night and weekends we can turn automatically turn of the Test Instances and databases so we are not paying for it during hours when no one is using it.
+
+
+
+- Resize EC2 Instances: We noticed that some of the instances are also being underutilised because the instnace size Blue Moon is using is to big for example currently Blue Moon is using a t2.large instance and this does not suit their use case at because this instances are greatly underutilised we are going to resize them to suit Blue Moon work performance and to also save cost. So we are going to resize the EC2 instances to use t2.medium instance family size and the database
+
+- Resize RDS Instances: For the same reasons we have started above we are going the resize the databases as well because they are being underutilised and we are paying for capacity that we are not using currently the database is using db.m4.2xlarge we are going to resize the databse to use db.t3.micro because this Blue Moons use case better and we are not paying for capacity we are not using.
 
 ### Monitoring   
 
@@ -459,4 +470,88 @@ The tools that would be used to achieve the current goals are:
  
 
  
+
+## Detail of Costs
+Since Blue Moon is already using a cloud provider our cost calcution is goig to come from the standpoint of cost saving on the cloud. We are going to calculate how much we are going to save Blue Moon once we implement our recommendations. We are going to compare Blue Moon current monthly spend and how much Blue Moon monthly spend would be after implementing our recommedations.
+
+Below is a breakdown of Blue Moon current spend using the AWS Pricing Calculator referenced in fig 1.0 below
+
+![Blue Moon Current Spendd](screenshots/image1.png)
+fig 1.0
+
+
+If Blue Moon implements are recommendations we can help Blue Moon to save an extra 93.88% on their cloud expenditure. Below is a breakdown of Blue Moon predicted if Blue Moon implements our recommendation using the AWS Pricing Calculator referenced in fig 2.0 below
+
+![Blue Moon Current Spendd](screenshots/image2.png)
+fig 2.0
+
+P.S. Note: That the price for AWS Backup Vault was not included in the pricing because there was no option to add it to the pricing on the pricing calculator and the price for CloudWatch is not detailed added to the pricing because we are not currently certain about how much metrics we would be gathering because this are custom metrics.  
+
+The 93.88% savings was calculated using the following formula
+
+Find the difference between the original price and the reduced price:
+
+Difference = Original Price − Reduced Price
+
+Difference = 69,531.96 − 4,213.44= 65,318.52 USD
+
+Calculate the percentage saved:
+
+Percentage Saved = (Difference / Original Price) × 100
+
+Percentage Saved = (65,318.52 / 69,531.96) ×100
+
+Percentage Saved = (0.938) × 100 = 93.88%
+
+
+## Sample Cloud Infrastructure Deployment
+
+We are now going to configure a cloudwatch agent for our EC2 instance. Below are the steps we are going to take to complete this task
+
+### Configure the CloudWatch agent
+
+- Create the IAM role necessary for each server to run the CloudWatch agent 
+
+- Use the AWS Systems Manager to install the cloudwatch agent on the instance
+
+- Install CollectD on the instance.
+
+- Run the CloudWatch Agent on the EC2 instance using the following command sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
+
+- Leave the default options or select your own default options 
+
+- Finish the configuration by running the following command sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -s -c file:configuration-file-path
+
+- Start the cloudwatch agent sudo systemctl start amazon-cloudwatch-agent 
+
+- Goto Cloudwatch dashboard and view the log groups
+
+
+### Configure the Cloudwatch Dashboards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reference 
+
+https://aws.amazon.com/savingsplans/compute-pricing/
+
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/create-iam-roles-for-cloudwatch-agent.html#create-iam-roles-for-cloudwatch-agent-roles
+
+
+https://www.how2shout.com/linux/how-to-install-collectd-on-amazon-linux-2023/
+
+
+
+
 
