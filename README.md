@@ -129,6 +129,21 @@ Blue Moon uses AWS as its default cloud provider. Below is a list of its current
 - Grafana & Prometheus hosted on an EC2 instance  
 
   
+EC2 INSTANCES
+Ec2 is a virtual server provided by amazon web service that allows businesses create and operate apps faster. It allows you to scale up or down the server numbers to meet-up with operations demand.
+For example, Brown Thomas in preparations for black Friday will need to scale up to meet up with high influx of customers. To ensure that the high number of customers does not affect load time and response rate, servers would be increased to meet up with the estimated expected influx.
+
+AWS AUTOSCALING FOR EC2
+AWS autoscaling observes application and automatically adjusts its capacity (increase or decrease) to ensure consistent and efficient operations at the lowest price possible. It can be set up to meet up with multiple resources across numerous services in minutes. Scaling is recommended based on the business need to save cost or improve performance or a combination of both 
+
+AWS RDS AUTOSCALING
+To prevent downtime and save cost, RDS provides an automated storage scalability for relational databases like mysql, microsoft sql server, Oracle amongst many others. This is done by monitoring the database storage usage and adjusting to its consumption. When consumption is high, RDS increases the number of storage capacity available and vice versa. 
+
+S3 BUCKETS
+It is a simple storage service that allows user store and retrieve data at any time on the web. Users will create buckets in a region of their choice, select storage class, determine access controls. The buckets are encrypted to provide security and allow for adequate scalability of storage. 
+
+GRAFANA AND PROMETHEUS USING EC2 INSTANCE
+Grafana is a data visualization and monitoring tool that connects with open-source platforms to create a time series analytics of data. It allows users create alerts, annotate and transform data while creating customizable dashboards that provide insights into errors, application and user behaviours etc.
 
    
 
@@ -552,6 +567,25 @@ https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/create-iam-roles-
 https://www.how2shout.com/linux/how-to-install-collectd-on-amazon-linux-2023/
 
 
+Links 
+RDS & EC2
+https://aws.amazon.com/rds/instance-types/
+https://spot.io/resources/aws-autoscaling/scaling-ec2-ecs-rds-and-more/
+https://aws.amazon.com/autoscaling/
+https://granulate.io/blog/ec2-auto-scaling-examples-challenges/
+https://aws.amazon.com/rds/instance-types/
+https://aws.amazon.com/ec2/instance-types/
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
+https://sumologic.com/glossary/aws-ec2/#:~:text=Amazon%20Web%20Service%20EC2%20(Amazon,in%20Amazon%20Web%20Services%20terminology.
+
+S3 BUCKETS
+https://www.onixnet.com/blog/what-is-amazon-s3/
+https://www.seagate.com/gb/en/blog/how-amazon-s3-buckets-work/
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
+
+GRAFANA AND PROMETHIS USING E2C INSTANCE
+https://scaleyourapp.com/what-is-grafana-why-use-it-everything-you-should-know-about-it/
+https://www.redhat.com/en/topics/data-services/what-is-grafana
 
 
 
