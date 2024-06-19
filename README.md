@@ -495,10 +495,10 @@ Below is a breakdown of Blue Moon current spend using the AWS Pricing Calculator
 fig 1.0
 
 
-If Blue Moon implements are recommendations we can help Blue Moon to save an extra 93.88% on their cloud expenditure. Below is a breakdown of Blue Moon predicted if Blue Moon implements our recommendation using the AWS Pricing Calculator referenced in fig 2.0 below
+If Blue Moon implements are recommendations we can help Blue Moon to save an extra 93.88% on their cloud expenditure. Below is a breakdown of Blue Moon predicted if Blue Moon implements our recommendation using the AWS Pricing Calculator referenced in fig 1.1 below
 
 ![Blue Moon Current Spendd](screenshots/image2.png)
-fig 2.0
+fig 1.1
 
 P.S. Note: That the price for AWS Backup Vault was not included in the pricing because there was no option to add it to the pricing on the pricing calculator and the price for CloudWatch is not detailed added to the pricing because we are not currently certain about how much metrics we would be gathering because this are custom metrics.  
 
@@ -544,6 +544,58 @@ We are now going to configure a cloudwatch agent for our EC2 instance. Below are
 
 ### Configure the Cloudwatch Dashboards
 
+- On the AWS Console search for cloudwatch
+
+- On the cloudwatch service click on Dashboard
+
+- Click Add to Add a new metrics, logs or Alarm
+
+- Then select the type of widget you want to add 
+
+- Then Add the source where you want to collect metrics from (this would be from the cloudwatch agent we have setup )
+
+- Then select the type of metrics you want to collect (the namespace)
+
+
+Below in fig 1.2 shows the custom metrics we have setup for our cloudwatch dashboard 
+
+
+![Blue Moon Metrics Dashboard](screenshots/image3.png)
+fig 1.2
+
+
+### Configure the Instance Scheduler 
+
+- We are going to provision the instance scheduler using the template from AWS
+
+- Visit this link [Amazon Instance Scheduler ](https://aws.amazon.com/solutions/implementations/instance-scheduler-on-aws/).
+
+- Click Launch in AWS Console (This would auto complete an aws template to use) fig 1.3 Shows the AWS Documentation page 
+
+![Instance Scheduler on AWS ](screenshots/image4.png)
+
+- Give the stack a name and choose your desired configuration (We used the default because it suits our  use case)
+
+![Configure CloudFormation Stack ](screenshots/image5.png)
+fig 1.4
+
+- Once the stack is created. on the gobal search goto DynamoDB
+
+- On the DynamoDb select the table that has a suffix of config 
+
+- On the config table edit any of the enteries for time and date or create your own entry
+
+- We edited the office-hours entery because it suits our use case 
+
+![Edit time frame ](screenshots/image6.png)
+fig 1.5
+
+- Then on the Global search go back to EC2 and select the EC2 instances you want to automate their start and stop 
+
+- Edit the tags of this EC2 and add a tag of Schedule : office-hours. Here Schedule serves as the key and office-hours serves as the schedule. (We are using this tag because this tag would allow the instance scheduler know what time periods to use to automate the staart and stop of the instance )
+
+![Edit EC2 Tags](screenshots/image7.png)
+fig 1.6
 
 
 
