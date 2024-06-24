@@ -16,11 +16,78 @@ This repo contains the Cloud Strategy and Sample Deployment of an organization c
 
 Blue Moon is a startup that has been operational for the last five years in the Ghana area of West-Africa. They have experienced average growth for the last few years, but their customer base is easily quantifiable. Blue Moon is a fintech, they collaborate with Banks to provide a credit model to give out loans to users. This model rates users and gives them a score, with this score the bank can determine if to give a loan to said user or reject the loan. It also helps them decide the range of amount loan a user is eligible for. Asides Collaborating with banks Blue Moon also operates its own loan management system which it uses to give loans directly to its customer base. Blue Moon has a current monthly spend of over $5,036 Blue Moon have noticed that they are overspending for their cloud infrastructure and would like to reduce cost while also optimizing their cloud usage  
 
-  
 
-   
 
-  
+
+
+
+## Technical Definitions
+
+
+
+### What is cloud computing?
+
+Cloud computing is the on-demand availability of computer system resources, especially data storage (cloud storage) and computing power, without direct active management by the user. Large clouds often have functions distributed over multiple locations, each of which is a data center. Cloud computing relies on sharing of resources to achieve coherence and typically uses a pay-as-you-go model, which can help in reducing capital expenses but may also lead to unexpected operating expenses for users.
+
+There are multiple cloud providers such as AWS, Microsoft Azure, GCP, etc. Organizations of every type, size, and industry are using the cloud for a wide variety of use cases, such as data backup, disaster recovery, email, virtual desktops, software development and testing, big data analytics, and customer-facing web applications.
+
+### What is AWS?
+
+Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud, offering over 200 fully featured services from data centers globally. AWS provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis.
+
+### What is a private cloud?
+
+A private cloud is a cloud computing environment dedicated to a single organization. Any cloud infrastructure has underlying compute resources like CPU and storage that you provision on demand through a self-service portal. In a private cloud, all resources are isolated and in the control of one organization. Private cloud is also called as the internal or corporate cloud.
+
+Some organizations require freedom to make their own architectural decisions and choose the hardware and software best suited for their requirements. Also, they believe that by using private cloud, they would be able to meet the regulatory compliance requirements for their sensitive data. Due to these reasons, they prefer to use private cloud.
+
+### What are the benefits of cloud computing?
+
+Below are the benefits of cloud computing:
+
+1. **Agility**: Cloud providers give you access to a numerous range of technologies enabling you to innovate faster. You can deploy technology services in a matter of minutes and get from idea to implementation several orders of magnitude faster than before. This gives you the freedom to experiment, test new ideas to differentiate customer experiences, and transform your business.
+
+2. **Elasticity**: With cloud computing, you don’t have to over-provision resources up front to handle peak levels of business activity in the future. Instead, you provision the number of resources that you actually need. You can scale these resources up or down to instantly grow and shrink capacity as your business needs change.
+
+3. **Cost Savings**: Because of the economies of scale, the expenses are much lower if you had to set up resources on your own. Plus, you pay only for the resources you use.
+
+4. **Deploy globally in minutes**: Because cloud providers have infrastructure setup across the world, the user can deploy their applications in various regions and within a very short span of time.
+
+### What are the benefits of using AWS?
+
+Benefits of using AWS are below:
+
+1. **Ease of Use**: AWS provides a user-friendly interface called the AWS Management Console. This console provides access to numerous services of AWS. Plus, the usage of these services is remarkably simple as there is very well detailed documentation released by the provider.
+
+2. **Vast Array of Services**: Being a leading cloud provider, AWS one-stop-shop for all your cloud computing and IT needs. AWS has significantly more services, and more features within those services, than any other cloud provider. These range from infrastructure technologies like compute, storage, and databases, etc. to emerging technologies, such as machine learning and AI, data lakes and analytics, and Internet of Things. This makes it faster, easier, and more cost effective to move your existing applications to the cloud and build anything you can imagine.
+
+3. **Most Secure**: It has incredible security and the capability to keep your information and IT infrastructure safe. AWS provides reliable security measures that are guaranteed to keep your data safe and secure.
+
+4. **Unlimited server capacity with flexibility and affordability**: There is no limit to how much capacity you can use, with its on-demand provisioning type. You can choose your own OS, programming language, etc. AWS offers these infrastructure services at a very affordable price.
+
+### What are various deployment models of the cloud?
+
+The cloud deployment models refer to the way cloud computing resources are provisioned. These are of below 4 types:
+
+1. **Public Clouds**: A public cloud is a cloud deployment model where the infrastructure is owned and managed by a third-party provider. The provider is responsible for maintaining and upgrading the infrastructure, and the user has access to the cloud services through the internet.
+
+2. **Private Clouds**: A private cloud is a cloud deployment model where the infrastructure is owned and managed by a single organization. The organization has full control over the infrastructure and can customize it to meet their specific needs. These are suitable for large enterprises that require high security, customization, and control over their infrastructure.
+
+3. **Community Clouds**: A community cloud is a cloud deployment model where the infrastructure is shared by multiple organizations with similar interests or goals. The infrastructure is managed by a third-party provider or the community itself.
+
+4. **Hybrid Clouds**: A hybrid cloud is a cloud deployment model that combines public and private clouds. Organizations can use public clouds for certain workloads and private clouds for others. Hybrid clouds offer the benefits of scalability, flexibility, and cost-effectiveness of public clouds, while also providing the security and control of private clouds.
+
+### What are the types of cloud service models?
+
+There are three types of cloud service models which are as below:
+
+1. **Infrastructure as a Service (IaaS)**: IaaS provides access to networking features, computers (virtual or on dedicated hardware), and data storage space. Examples are AWS EC2, Google Cloud Engine, etc.
+
+2. **Platform as a Service (PaaS)**: PaaS offers hardware and software tools over the internet. It is typically used for application development. You do not need to manage the underlying infrastructure. Rather, you just need to focus on the deployment and management of your applications. Examples are Google App Engine, Heroku, etc.
+
+3. **Software as a Service (SaaS)**: SaaS delivers software applications over the internet, on a subscription basis. With SaaS, you only need to think about how you are going to use the software. Examples are Microsoft Office 365, Google workspace, etc.
+
+
 
 ## Current IT setup  
 
@@ -610,6 +677,12 @@ fig 1.6
 
 
 Reference 
+
+https://aws.amazon.com/what-is-cloud-computing/
+https://en.wikipedia.org/wiki/Cloud_computing
+https://aws.amazon.com/what-is-aws/
+https://sados.com/blog/aws-benefits-and-drawbacks/
+https://aws.amazon.com/what-is/private-cloud/
 
 https://aws.amazon.com/savingsplans/compute-pricing/
 
