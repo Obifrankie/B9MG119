@@ -27,7 +27,7 @@ Blue Moon is a startup that has been operational for the last five years in the 
 
 ### What is cloud computing?
 
-Cloud computing is the on-demand availability of computer system resources, especially data storage (cloud storage) and computing power, without direct active management by the user. Large clouds often have functions distributed over multiple locations, each of which is a data center. Cloud computing relies on sharing of resources to achieve coherence and typically uses a pay-as-you-go model, which can help in reducing capital expenses but may also lead to unexpected operating expenses for users.
+Cloud Computing is the on-demand provisioning of IT resources (especially, data storage and computing power), without requirement of direct active management by the user. Large cloud providers such as AWS, GCP, etc. have their resources distributed over multiple locations, called as a data center. Cloud computing relies on sharing of resources to achieve coherence and typically uses a pay-as-you-go model, which can help in reducing capital expenses but may also lead to unexpected operating expenses for users.
 
 There are multiple cloud providers such as AWS, Microsoft Azure, GCP, etc. Organizations of every type, size, and industry are using the cloud for a wide variety of use cases, such as data backup, disaster recovery, email, virtual desktops, software development and testing, big data analytics, and customer-facing web applications.
 
@@ -37,7 +37,7 @@ Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopte
 
 ### What is a private cloud?
 
-A private cloud is a cloud computing environment dedicated to a single organization. Any cloud infrastructure has underlying compute resources like CPU and storage that you provision on demand through a self-service portal. In a private cloud, all resources are isolated and in the control of one organization. Private cloud is also called as the internal or corporate cloud.
+A private cloud is a cloud computing environment dedicated to a single organization. You need to provision on-demand computing resources through a self-service portal. In a private cloud, all the resources are isolated and also, in the control of one organization.  Private cloud is also called as the internal or corporate cloud.
 
 Some organizations require freedom to make their own architectural decisions and choose the hardware and software best suited for their requirements. Also, they believe that by using private cloud, they would be able to meet the regulatory compliance requirements for their sensitive data. Due to these reasons, they prefer to use private cloud.
 
@@ -45,9 +45,9 @@ Some organizations require freedom to make their own architectural decisions and
 
 Below are the benefits of cloud computing:
 
-1. **Agility**: Cloud providers give you access to a numerous range of technologies enabling you to innovate faster. You can deploy technology services in a matter of minutes and get from idea to implementation several orders of magnitude faster than before. This gives you the freedom to experiment, test new ideas to differentiate customer experiences, and transform your business.
+1. **Agility**: Cloud providers give you access to a numerous range of technologies enabling you to innovate faster. You can deploy your code utilizing these services in a couple of minutes and navigate from idea to implementation stage much faster than before. This way you get freedom to experiment, test new ideas for differentiating customer experiences along with transforming your business.
 
-2. **Elasticity**: With cloud computing, you don’t have to over-provision resources up front to handle peak levels of business activity in the future. Instead, you provision the number of resources that you actually need. You can scale these resources up or down to instantly grow and shrink capacity as your business needs change.
+2. **Elasticity**: With cloud computing, you don’t have to necessarily provision the resources up-front to handle peak business loads. Instead, you provision the number of resources that you actually need. You can scale these resources up or down to instantly grow and shrink capacity as your business needs change.
 
 3. **Cost Savings**: Because of the economies of scale, the expenses are much lower if you had to set up resources on your own. Plus, you pay only for the resources you use.
 
@@ -57,9 +57,9 @@ Below are the benefits of cloud computing:
 
 Benefits of using AWS are below:
 
-1. **Ease of Use**: AWS provides a user-friendly interface called the AWS Management Console. This console provides access to numerous services of AWS. Plus, the usage of these services is remarkably simple as there is very well detailed documentation released by the provider.
+1. **Ease of Use**: AWS provides an interface called the AWS Management Console which is very user-friendly. This console provides access to numerous services of AWS. Plus, the usage of these services is remarkably simple as there is very well detailed documentation released by the provider.
 
-2. **Vast Array of Services**: Being a leading cloud provider, AWS one-stop-shop for all your cloud computing and IT needs. AWS has significantly more services, and more features within those services, than any other cloud provider. These range from infrastructure technologies like compute, storage, and databases, etc. to emerging technologies, such as machine learning and AI, data lakes and analytics, and Internet of Things. This makes it faster, easier, and more cost effective to move your existing applications to the cloud and build anything you can imagine.
+2. **Vast Array of Services**: Being a leading cloud provider, AWS one-stop-shop for all your cloud computing and IT needs. As per claims made by AWS, it has significantly more services than any other cloud provider. These services range from compute, storage, database, and other infrastructure related technologies to emerging technologies, like machine learning and AI, and Internet of Things, etc. This makes it faster, easier, and more cost effective to move your existing applications to the cloud and build anything you can imagine.
 
 3. **Most Secure**: It has incredible security and the capability to keep your information and IT infrastructure safe. AWS provides reliable security measures that are guaranteed to keep your data safe and secure.
 
@@ -69,24 +69,23 @@ Benefits of using AWS are below:
 
 The cloud deployment models refer to the way cloud computing resources are provisioned. These are of below 4 types:
 
-1. **Public Clouds**: A public cloud is a cloud deployment model where the infrastructure is owned and managed by a third-party provider. The provider is responsible for maintaining and upgrading the infrastructure, and the user has access to the cloud services through the internet.
+1. **Public Clouds**: This is a type of cloud deployment model in which the infrastructure is owned and managed by a third-party provider. The provider is responsible for maintaining and upgrading the infrastructure, and the user has access to the cloud services through the internet.
 
 2. **Private Clouds**: A private cloud is a cloud deployment model where the infrastructure is owned and managed by a single organization. The organization has full control over the infrastructure and can customize it to meet their specific needs. These are suitable for large enterprises that require high security, customization, and control over their infrastructure.
 
 3. **Community Clouds**: A community cloud is a cloud deployment model where the infrastructure is shared by multiple organizations with similar interests or goals. The infrastructure is managed by a third-party provider or the community itself.
 
-4. **Hybrid Clouds**: A hybrid cloud is a cloud deployment model that combines public and private clouds. Organizations can use public clouds for certain workloads and private clouds for others. Hybrid clouds offer the benefits of scalability, flexibility, and cost-effectiveness of public clouds, while also providing the security and control of private clouds.
+4. **Hybrid Clouds**: It’s a type of cloud deployment model which is a combination of private and public clouds. Organizations can use public clouds for certain workloads and private clouds for others. Hybrid clouds offer the benefits of scalability, flexibility, and cost-effectiveness of public clouds, while also providing the security and control of private clouds.
 
 ### What are the types of cloud service models?
 
 There are three types of cloud service models which are as below:
 
-1. **Infrastructure as a Service (IaaS)**: IaaS provides access to networking features, computers (virtual or on dedicated hardware), and data storage space. Examples are AWS EC2, Google Cloud Engine, etc.
+1. **Infrastructure as a Service (IaaS)**: IaaS offers access to computers (either virtually or on dedicated hardwares), data storage space and networking features. Examples are AWS EC2, Google Cloud Engine, etc.
 
-2. **Platform as a Service (PaaS)**: PaaS offers hardware and software tools over the internet. It is typically used for application development. You do not need to manage the underlying infrastructure. Rather, you just need to focus on the deployment and management of your applications. Examples are Google App Engine, Heroku, etc.
+2. **Platform as a Service (PaaS)**: PaaS provides software tools and hardware over the internet. It is typically used for application development. You do not need to manage the underlying infrastructure. Rather, you just need to focus on the deployment and management of your applications. Examples are Google App Engine, Heroku, etc.
 
-3. **Software as a Service (SaaS)**: SaaS delivers software applications over the internet, on a subscription basis. With SaaS, you only need to think about how you are going to use the software. Examples are Microsoft Office 365, Google workspace, etc.
-
+3. **Software as a Service (SaaS)**: It offers the software applications on a subscription model over the internet. With SaaS, you only need to think about how you are going to use the software. Examples are Microsoft Office 365, Google workspace, etc.
 
 
 ## Current IT setup  
