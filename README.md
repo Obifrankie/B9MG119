@@ -674,7 +674,7 @@ fig 1.6
 
 
 
-Reference 
+References 
 
 - (No date) Compute – Amazon EC2 instance types – AWS. Available at: 
 
