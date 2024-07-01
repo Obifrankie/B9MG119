@@ -4,7 +4,7 @@
 
 This repo contains the Cloud Strategy and Sample Deployment of an organization called Blue Moon
 
-Repo Link: _https://github.com/Obifrankie/B9MG119_
+Repo Link: [Project Repo](https://github.com/Obifrankie/B9MG119)
 
   
 
@@ -29,17 +29,17 @@ Blue Moon is a startup that has been operational for the last five years in the 
 
 ### What is cloud computing?
 
-Cloud Computing is the on-demand provisioning of IT resources (especially, data storage and computing power), without requirement of direct active management by the user. Large cloud providers such as AWS, GCP, etc. have their resources distributed over multiple locations, called as a data center. Cloud computing relies on sharing of resources to achieve coherence and typically uses a pay-as-you-go model, which can help in reducing capital expenses but may also lead to unexpected operating expenses for users.
+Cloud Computing is the on-demand provisioning of IT resources (especially, data storage and computing power), without requirement of direct active management by the user. Large cloud providers such as AWS, GCP, etc. have their resources distributed over multiple locations, called as a data center. Cloud computing relies on sharing of resources to achieve coherence and typically uses a pay-as-you-go model, which can help in reducing capital expenses but may also lead to unexpected operating expenses for users (AWS, 2024).
 
 There are multiple cloud providers such as AWS, Microsoft Azure, GCP, etc. Organizations of every type, size, and industry are using the cloud for a wide variety of use cases, such as data backup, disaster recovery, email, virtual desktops, software development and testing, big data analytics, and customer-facing web applications.
 
 ### What is AWS?
 
-Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud, offering over 200 fully featured services from data centers globally. AWS provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis.
+Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud, offering over 200 fully featured services from data centers globally. AWS provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis (AWS, 2024).
 
 ### What is a private cloud?
 
-A private cloud is a cloud computing environment dedicated to a single organization. You need to provision on-demand computing resources through a self-service portal. In a private cloud, all the resources are isolated and also, in the control of one organization.  Private cloud is also called as the internal or corporate cloud.
+A private cloud is a cloud computing environment dedicated to a single organization. You need to provision on-demand computing resources through a self-service portal. In a private cloud, all the resources are isolated and also, in the control of one organization.  Private cloud is also called as the internal or corporate cloud (AWS, 2024).
 
 Some organizations require freedom to make their own architectural decisions and choose the hardware and software best suited for their requirements. Also, they believe that by using private cloud, they would be able to meet the regulatory compliance requirements for their sensitive data. Due to these reasons, they prefer to use private cloud.
 
@@ -59,13 +59,13 @@ Below are the benefits of cloud computing:
 
 Benefits of using AWS are below:
 
-1. **Ease of Use**: AWS provides an interface called the AWS Management Console which is very user-friendly. This console provides access to numerous services of AWS. Plus, the usage of these services is remarkably simple as there is very well detailed documentation released by the provider.
+1. **Ease of Use**: AWS provides an interface called the AWS Management Console which is very user-friendly. This console provides access to numerous services of AWS. Plus, the usage of these services is remarkably simple as there is very well detailed documentation released by the provider(Sados, 2023).
 
-2. **Vast Array of Services**: Being a leading cloud provider, AWS one-stop-shop for all your cloud computing and IT needs. As per claims made by AWS, it has significantly more services than any other cloud provider. These services range from compute, storage, database, and other infrastructure related technologies to emerging technologies, like machine learning and AI, and Internet of Things, etc. This makes it faster, easier, and more cost effective to move your existing applications to the cloud and build anything you can imagine.
+2. **Vast Array of Services**: Being a leading cloud provider, AWS one-stop-shop for all your cloud computing and IT needs. As per claims made by AWS, it has significantly more services than any other cloud provider. These services range from compute, storage, database, and other infrastructure related technologies to emerging technologies, like machine learning and AI, and Internet of Things, etc. This makes it faster, easier, and more cost effective to move your existing applications to the cloud and build anything you can imagine (Sados, 2023).
 
-3. **Most Secure**: It has incredible security and the capability to keep your information and IT infrastructure safe. AWS provides reliable security measures that are guaranteed to keep your data safe and secure.
+3. **Most Secure**: It has incredible security and the capability to keep your information and IT infrastructure safe. AWS provides reliable security measures that are guaranteed to keep your data safe and secure (Sados, 2023).
 
-4. **Unlimited server capacity with flexibility and affordability**: There is no limit to how much capacity you can use, with its on-demand provisioning type. You can choose your own OS, programming language, etc. AWS offers these infrastructure services at a very affordable price.
+4. **Unlimited server capacity with flexibility and affordability**: There is no limit to how much capacity you can use, with its on-demand provisioning type. You can choose your own OS, programming language, etc. AWS offers these infrastructure services at a very affordable price (Sados, 2023).
 
 ### What are various deployment models of the cloud?
 
@@ -196,23 +196,22 @@ Blue Moon uses AWS as its default cloud provider. Below is a list of its current
 
 - Grafana & Prometheus hosted on an EC2 instance  
 
+  ![Blue Moon Current Infrastructure](screenshots/image0.png)
   
 #### EC2 INSTANCES
-Ec2 is a virtual server provided by amazon web service that allows businesses create and operate apps faster. It allows you to scale up or down the server numbers to meet-up with operations demand.
+Ec2 is a virtual server provided by amazon web service that allows businesses create and operate apps faster. It allows you to scale up or down the server numbers to meet-up with operations demand (AWS, 2024).
 
 For example, Brown Thomas in preparations for black Friday will need to scale up to meet up with high influx of customers. To ensure that the high number of customers does not affect load time and response rate, servers would be increased to meet up with the estimated expected influx.
 
 #### AWS AUTOSCALING FOR EC2
-AWS autoscaling observes application and automatically adjusts its capacity (increase or decrease) to ensure consistent and efficient operations at the lowest price possible. It can be set up to meet up with multiple resources across numerous services in minutes. Scaling is recommended based on the business need to save cost or improve performance or a combination of both.
-
-#### AWS RDS AUTOSCALING
-To prevent downtime and save cost, RDS provides an automated storage scalability for relational databases like mysql, microsoft sql server, Oracle amongst many others. This is done by monitoring the database storage usage and adjusting to its consumption. When consumption is high, RDS increases the number of storage capacity available and vice versa. (2024) 
+AWS autoscaling observes application and automatically adjusts its capacity (increase or decrease) to ensure consistent and efficient operations at the lowest price possible. It can be set up to meet up with multiple resources across numerous services in minutes. Scaling is recommended based on the business need to save cost or improve performance or a combination of both (AWS, 2024).
+ 
 
 #### S3 BUCKETS
-It is a simple storage service that allows user store and retrieve data at any time on the web. Users will create buckets in a region of their choice, select storage class, determine access controls. The buckets are encrypted to provide security and allow for adequate scalability of storage. 
+It is a simple storage service that allows user store and retrieve data at any time on the web. Users will create buckets in a region of their choice, select storage class, determine access controls. The buckets are encrypted to provide security and allow for adequate scalability of storage (onixnet.com, 2024). 
 
 #### GRAFANA AND PROMETHEUS USING EC2 INSTANCE
-Grafana is a data visualization and monitoring tool that connects with open-source platforms to create a time series analytics of data. It allows users create alerts, annotate and transform data while creating customizable dashboards that provide insights into errors, application and user behaviours etc. (2024)
+Grafana is a data visualization and monitoring tool that connects with open-source platforms to create a time series analytics of data. It allows users create alerts, annotate and transform data while creating customizable dashboards that provide insights into errors, application and user behaviours etc. (Red Hat, 2024)
 
 Of the 9 EC2 instances only 3 are of importance for everyday use and they are:  
 
@@ -373,7 +372,7 @@ After careful review and monitoring of the organizations we have been able to de
    
 
   
-- Implement EC2 Instance saving plans: This is option is a great addition to Blue Moons infrastructure because we know that we are going to running a particular number of instances for over a period of at least 3 years. So, by dedicating to an EC2 savings plan with AWS we are able to save at least an extra 66% on our monthly expenditure on running these EC2 instances. 
+- Implement EC2 Instance saving plans: This is option is a great addition to Blue Moons infrastructure because we know that we are going to running a particular number of instances for over a period of at least 3 years. So, by dedicating to an EC2 savings plan with AWS we are able to save at least an extra 66% on our monthly expenditure on running these EC2 instances (AWS, 2024). 
 
 
 
@@ -600,7 +599,7 @@ We are now going to configure a cloudwatch agent for our EC2 instance. Below are
 
 - Leave the default options or select your own default options 
 
-- Finish the configuration by running the following command sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -s -c file:configuration-file-path
+- Finish the configuration by running the following command sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -s -c file:configuration-file-path (Spot.io, 2024)
 
 - Start the cloudwatch agent sudo systemctl start amazon-cloudwatch-agent 
 
@@ -631,9 +630,11 @@ fig 1.2
 
 ### Configure the Instance Scheduler 
 
+The cloudformation template used to achieve this solution can be found in the project repo at [Project Repo](https://github.com/Obifrankie/B9MG119)
+
 - We are going to provision the instance scheduler using the template from AWS
 
-- Visit this link [Amazon Instance Scheduler ](https://aws.amazon.com/solutions/implementations/instance-scheduler-on-aws/).
+- Visit this link [Amazon Instance Scheduler ](https://aws.amazon.com/solutions/implementations/instance-scheduler-on-aws/)(Amazon Web Services, 2023).
 
 - Click Launch in AWS Console (This would auto complete an aws template to use) fig 1.3 Shows the AWS Documentation page 
 
@@ -663,7 +664,8 @@ fig 1.5
 fig 1.6
 
 
-
+## Conclusion
+We have been able to display and show a more optimized apprach Blue Moon can implement in their day to day activities on the cloud to futher improve and optimize on both cost, performance, security and performance. Just because on organization has adopted the cloud does not mean they are properly using the cloud to meet their business needs 
 
 
 
@@ -676,46 +678,60 @@ fig 1.6
 
 References 
 
-- (No date) Compute – Amazon EC2 instance types – AWS. Available at: 
+- (2024) Compute – Amazon EC2 instance types – AWS. Available at: 
 
-  _https://aws.amazon.com/ec2/instance-types/_ (Accessed: 29 June 2024).
-- AWS Auto Scaling: Scaling EC2, ECS, RDS, and more (2024) Spot.io. Available at: 
+  https://aws.amazon.com/ec2/instance-types/ (Accessed: 29 June 2024).
 
-    _https://spot.io/resources/aws-autoscaling/scaling-ec2-ecs-rds-and-more/_ (Accessed: 29 June 2024).
+
 - What is Amazon S3 and why should I use it? (2024) Onix. Available at: 
 
-    _https://www.onixnet.com/blog/what-is-amazon-s3/_ (Accessed: 29 June 2024).
+    https://www.onixnet.com/blog/what-is-amazon-s3/ (Accessed: 29 June 2024).
+
 - Shivang and Shivang, S.H.W.I. am (no date) What is Grafana? why use it? everything you should know about it, Scaleyourapp. Available at: 
 
-    _https://scaleyourapp.com/what-is-grafana-why-use-it-everything-you-should-know-about-it/_ (Accessed: 29 June 2024).
-- (No date) Application scaling - AWS auto scaling - AWS. Available at: 
+    https://scaleyourapp.com/what-is-grafana-why-use-it-everything-you-should-know-about-it/ (Accessed: 29 June 2024).
 
-    _https://aws.amazon.com/autoscaling/_ (Accessed: 29 June 2024).
+- (2024) Application scaling - AWS auto scaling - AWS. Available at: 
+
+    https://aws.amazon.com/autoscaling/ (Accessed: 29 June 2024).
 - How Amazon S3 buckets work: Seagate US (no date b) Seagate.com. Available at: 
 
-    _https://www.seagate.com/gb/en/blog/how-amazon-s3-buckets-work/_ (Accessed: 29 June 2024).
+    https://www.seagate.com/gb/en/blog/how-amazon-s3-buckets-work/ (Accessed: 29 June 2024).
+
 - What is Grafana? (no date) Red Hat - We make open source technologies for the enterprise. Available at: 
 
-    _https://www.redhat.com/en/topics/data-services/what-is-grafana_ (Accessed: 29 June 2024).
+    https://www.redhat.com/en/topics/data-services/what-is-grafana (Accessed: 29 June 2024).
+
 - Discover what AWS EC2 is: Definition and overview (no date) Sumo Logic. Available at: 
 
-    _https://sumologic.com/glossary/aws-ec2/#:~:text=Amazon%20Web%20Service%20EC2%20(Amazon,in%20Amazon%20Web%20Services%20terminology._ (Accessed: 29 June 2024).
-- (No date) What is Cloud Computing – AWS. Available at:
+    https://sumologic.com/glossary/aws-ec2/#:~:text=Amazon%20Web%20Service%20EC2%20(Amazon,in%20Amazon%20Web%20Services%20terminology. (Accessed: 29 June 2024).
+
+- (2024) What is Cloud Computing – AWS. Available at:
   
-    _https://aws.amazon.com/what-is-cloud-computing/_ (Accessed: 18 June 2024).
-- (No date) Cloud Computing with AWS – AWS. Available at:
+    https://aws.amazon.com/what-is-cloud-computing/ (Accessed: 18 June 2024).
 
-    _https://aws.amazon.com/what-is-aws/_ (Accessed: 18 June 2024).
-- (No date) What is a Private Cloud? – AWS. Available at:
+- (2024) Cloud Computing with AWS – AWS. Available at:
 
-    _https://aws.amazon.com/what-is/private-cloud/_ (Accessed: 18 June 2024).
+    https://aws.amazon.com/what-is-aws/ (Accessed: 18 June 2024).
+- (2024) What is a Private Cloud? – AWS. Available at:
+
+    https://aws.amazon.com/what-is/private-cloud/ (Accessed: 18 June 2024).
+
 - (No date) Compute and EC2 Instance Savings Plans – AWS. Available at:
 
-    _https://aws.amazon.com/savingsplans/compute-pricing/_ (Accessed: 18 June 2024).
+    https://aws.amazon.com/savingsplans/compute-pricing/ (Accessed: 18 June 2024).
 
-https://en.wikipedia.org/wiki/Cloud_computing
-https://sados.com/blog/aws-benefits-and-drawbacks/
-https://www.how2shout.com/linux/how-to-install-collectd-on-amazon-linux-2023/
+- Spot.io (2023). How to Install Collectd on Amazon Linux. Available at: 
+
+    https://spot.io/resources/how-to-install-collectd-on-amazon-linux-2023/ (Accessed: 29 June 2024).
+
+
+- Sados (2023). AWS Benefits and Drawbacks. Available at: 
+    https://sados.com/blog/aws-benefits-and-drawbacks/ (Accessed: 29 June 2024)
+
+- Amazon Web Services (2023). Instance Scheduler on AWS. Available at: 
+    https://aws.amazon.com/solutions/implementations/instance-scheduler-on-aws/ (Accessed: 29 June 2024).
+
 
 
 
