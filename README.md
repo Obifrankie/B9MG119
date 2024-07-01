@@ -2,7 +2,9 @@
 
   
 
-This repo contains the Cloud Strategy and Sample Deployment of an organization called Blue Moon  
+This repo contains the Cloud Strategy and Sample Deployment of an organization called Blue Moon
+
+Repo Link: _https://github.com/Obifrankie/B9MG119_
 
   
 
@@ -698,40 +700,23 @@ Reference
 - Discover what AWS EC2 is: Definition and overview (no date) Sumo Logic. Available at: 
 
     _https://sumologic.com/glossary/aws-ec2/#:~:text=Amazon%20Web%20Service%20EC2%20(Amazon,in%20Amazon%20Web%20Services%20terminology._ (Accessed: 29 June 2024).
+- (No date) What is Cloud Computing – AWS. Available at:
+  
+    _https://aws.amazon.com/what-is-cloud-computing/_ (Accessed: 18 June 2024).
+- (No date) Cloud Computing with AWS – AWS. Available at:
 
-https://aws.amazon.com/what-is-cloud-computing/
+    _https://aws.amazon.com/what-is-aws/_ (Accessed: 18 June 2024).
+- (No date) What is a Private Cloud? – AWS. Available at:
+
+    _https://aws.amazon.com/what-is/private-cloud/_ (Accessed: 18 June 2024).
+- (No date) Compute and EC2 Instance Savings Plans – AWS. Available at:
+
+    _https://aws.amazon.com/savingsplans/compute-pricing/_ (Accessed: 18 June 2024).
+
 https://en.wikipedia.org/wiki/Cloud_computing
-https://aws.amazon.com/what-is-aws/
 https://sados.com/blog/aws-benefits-and-drawbacks/
-https://aws.amazon.com/what-is/private-cloud/
-
-https://aws.amazon.com/savingsplans/compute-pricing/
-
-https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/create-iam-roles-for-cloudwatch-agent.html#create-iam-roles-for-cloudwatch-agent-roles
-
-
 https://www.how2shout.com/linux/how-to-install-collectd-on-amazon-linux-2023/
 
-
-Links 
-RDS & EC2
-https://aws.amazon.com/rds/instance-types/
-https://spot.io/resources/aws-autoscaling/scaling-ec2-ecs-rds-and-more/
-https://aws.amazon.com/autoscaling/
-https://granulate.io/blog/ec2-auto-scaling-examples-challenges/
-https://aws.amazon.com/rds/instance-types/
-https://aws.amazon.com/ec2/instance-types/
-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
-https://sumologic.com/glossary/aws-ec2/#:~:text=Amazon%20Web%20Service%20EC2%20(Amazon,in%20Amazon%20Web%20Services%20terminology.
-
-S3 BUCKETS
-https://www.onixnet.com/blog/what-is-amazon-s3/
-https://www.seagate.com/gb/en/blog/how-amazon-s3-buckets-work/
-https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
-
-GRAFANA AND PROMETHIS USING E2C INSTANCE
-https://scaleyourapp.com/what-is-grafana-why-use-it-everything-you-should-know-about-it/
-https://www.redhat.com/en/topics/data-services/what-is-grafana
 
 
 
