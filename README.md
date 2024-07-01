@@ -196,25 +196,22 @@ Blue Moon uses AWS as its default cloud provider. Below is a list of its current
 - Grafana & Prometheus hosted on an EC2 instance  
 
   
-EC2 INSTANCES
+#### EC2 INSTANCES
 Ec2 is a virtual server provided by amazon web service that allows businesses create and operate apps faster. It allows you to scale up or down the server numbers to meet-up with operations demand.
+
 For example, Brown Thomas in preparations for black Friday will need to scale up to meet up with high influx of customers. To ensure that the high number of customers does not affect load time and response rate, servers would be increased to meet up with the estimated expected influx.
 
-AWS AUTOSCALING FOR EC2
-AWS autoscaling observes application and automatically adjusts its capacity (increase or decrease) to ensure consistent and efficient operations at the lowest price possible. It can be set up to meet up with multiple resources across numerous services in minutes. Scaling is recommended based on the business need to save cost or improve performance or a combination of both 
+#### AWS AUTOSCALING FOR EC2
+AWS autoscaling observes application and automatically adjusts its capacity (increase or decrease) to ensure consistent and efficient operations at the lowest price possible. It can be set up to meet up with multiple resources across numerous services in minutes. Scaling is recommended based on the business need to save cost or improve performance or a combination of both.
 
-AWS RDS AUTOSCALING
-To prevent downtime and save cost, RDS provides an automated storage scalability for relational databases like mysql, microsoft sql server, Oracle amongst many others. This is done by monitoring the database storage usage and adjusting to its consumption. When consumption is high, RDS increases the number of storage capacity available and vice versa. 
+#### AWS RDS AUTOSCALING
+To prevent downtime and save cost, RDS provides an automated storage scalability for relational databases like mysql, microsoft sql server, Oracle amongst many others. This is done by monitoring the database storage usage and adjusting to its consumption. When consumption is high, RDS increases the number of storage capacity available and vice versa. (2024) 
 
-S3 BUCKETS
+#### S3 BUCKETS
 It is a simple storage service that allows user store and retrieve data at any time on the web. Users will create buckets in a region of their choice, select storage class, determine access controls. The buckets are encrypted to provide security and allow for adequate scalability of storage. 
 
-GRAFANA AND PROMETHEUS USING EC2 INSTANCE
-Grafana is a data visualization and monitoring tool that connects with open-source platforms to create a time series analytics of data. It allows users create alerts, annotate and transform data while creating customizable dashboards that provide insights into errors, application and user behaviours etc.
-
-   
-
-  
+#### GRAFANA AND PROMETHEUS USING EC2 INSTANCE
+Grafana is a data visualization and monitoring tool that connects with open-source platforms to create a time series analytics of data. It allows users create alerts, annotate and transform data while creating customizable dashboards that provide insights into errors, application and user behaviours etc. (2024)
 
 Of the 9 EC2 instances only 3 are of importance for everyday use and they are:  
 
@@ -677,6 +674,31 @@ fig 1.6
 
 
 Reference 
+
+- (No date) Compute – Amazon EC2 instance types – AWS. Available at: 
+
+  _https://aws.amazon.com/ec2/instance-types/_ (Accessed: 29 June 2024).
+- AWS Auto Scaling: Scaling EC2, ECS, RDS, and more (2024) Spot.io. Available at: 
+
+    _https://spot.io/resources/aws-autoscaling/scaling-ec2-ecs-rds-and-more/_ (Accessed: 29 June 2024).
+- What is Amazon S3 and why should I use it? (2024) Onix. Available at: 
+
+    _https://www.onixnet.com/blog/what-is-amazon-s3/_ (Accessed: 29 June 2024).
+- Shivang and Shivang, S.H.W.I. am (no date) What is Grafana? why use it? everything you should know about it, Scaleyourapp. Available at: 
+
+    _https://scaleyourapp.com/what-is-grafana-why-use-it-everything-you-should-know-about-it/_ (Accessed: 29 June 2024).
+- (No date) Application scaling - AWS auto scaling - AWS. Available at: 
+
+    _https://aws.amazon.com/autoscaling/_ (Accessed: 29 June 2024).
+- How Amazon S3 buckets work: Seagate US (no date b) Seagate.com. Available at: 
+
+    _https://www.seagate.com/gb/en/blog/how-amazon-s3-buckets-work/_ (Accessed: 29 June 2024).
+- What is Grafana? (no date) Red Hat - We make open source technologies for the enterprise. Available at: 
+
+    _https://www.redhat.com/en/topics/data-services/what-is-grafana_ (Accessed: 29 June 2024).
+- Discover what AWS EC2 is: Definition and overview (no date) Sumo Logic. Available at: 
+
+    _https://sumologic.com/glossary/aws-ec2/#:~:text=Amazon%20Web%20Service%20EC2%20(Amazon,in%20Amazon%20Web%20Services%20terminology._ (Accessed: 29 June 2024).
 
 https://aws.amazon.com/what-is-cloud-computing/
 https://en.wikipedia.org/wiki/Cloud_computing
